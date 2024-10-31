@@ -26,6 +26,7 @@ class Blog(BaseModel):
     title : str
     body : str
     published : Optional[bool]
+    sort:Optional[str]
 
 #post
 @app.post("/blog")
